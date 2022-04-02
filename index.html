@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        box-sizing: border-box;
+    }
+    .myStyle{
+        display:none;
+    }
+    .items:hover{
+        list-style: none;
+        background-color: cornflowerblue;
+        color: white;
+        padding: 1rem;
+    }
+    h1{
+        text-align: center;
+        padding: 1rem;
+    }
+    h3{
+        padding:1rem 3rem;
+        margin: 2rem;
+        background-color: lightblue;
+        color: rgb(20, 53, 116);
+    }
+</style>
+<body>
+    <h1>My Favorite Destinations</h1>
+
+    <h3>Toggle the list of my favourite destinations</h3>
+    
+    <ul class="myStyle">
+        <li class="item1 items">Damaskus</li>
+        <li class="item2 items">Bangkok</li>
+        <li class="item3 items">Amesterdam</li>
+        <li class="item4 items">Hamburg</li>
+        <li class="item5 items">California</li>
+    </ul>
+
+    <button >Show or Hide</button>
+
+    <button class="newbtn">Show colors</button>
+    <p></p>
+
+    <script src="./script.js"></script>
+</body>
+</html>
